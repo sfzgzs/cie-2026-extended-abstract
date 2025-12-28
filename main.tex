@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[colorlinks,allcolors=blue,pagebackref=true]{hyperref}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{natbib}
+\usepackage{doi}
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage{enumitem}
+\usepackage{cleveref}
+
+\newcommand\WhileCC{\textit{\textbf{WhileCC}}}
+\newcommand\Reals{\mathbb{R}}
+
+
+\title{\WhileCC-Approximability and Acceptability of Elementary Functions}
+\author[ ]{Fateme Ghasemi}
+\author[ ]{Jeffery Zucker}
+\author[ ]{William Smyth}
+\affil[ ]{Department of Computing and Software, McMaster University, Hamilton, ON, Canada}
+\affil[ ]{ghases5@mcmaster.ca \qquad zucker@mcmaster.ca}
+
+\date{January 2026}
+
+\begin{document}
+
+\maketitle
+
+Computability theory on the reals is classically  developed for total functions \cite{ConcreteModelsTopologicalAlgebra_Tucker1999,ComputableTotalFunctionsOnMetricAlgebras_JohnTuckerAndJeffZucker}.
+However, many standard functions in real analysis (such as the logarithmic, square root, and inverse trigonometric functions) are partial, and cannot be studied under such models.
+Thus, in this work, we focus on the elementary functions \cite{OrdinaryDifferentialEquations_Morris_Tenenbaum_1985},
+a subclass of single-valued partial functions on the reals
+that is closed under
+addition, multiplication, subtraction, division, n-th roots,
+exponential, trigonometric functions, and their inverses.
+
+
+Existing work \cite{ModelOfCompForPartFunc_MingQuanFuAndJeffZucker,ComputationByWhileProgramsOnTopologicalPartialAlgebras_TuckerAndZucker,AbstractVSConcreteComputationOnMetricPartialAlgebras_TuckerZucker_2004} studies four models of computation for partial functions on $\Reals$, namely
+\begin{enumerate}
+    \item GL-computability,
+    \item tracking computability,
+    \item multipolynomial
+          approximability, and
+    \item \WhileCC-approximability.
+\end{enumerate}
+The first two models are concrete models of computation, in which computability depends on the representation of data.
+For example, in tracking computability, each real number is represented as a natural number.
+In contrast, abstract models (such as \WhileCC-approximability) allow functions to be defined independently of such implementation details.
+For a programmer, this would be akin to writing programs against an abstract interface instead of dealing with specific implementations.
+
+Previous work by Fu and Zucker \cite{ModelOfCompForPartFunc_MingQuanFuAndJeffZucker} proves that these four models are equivalent when restricted to a class of functions we call ``acceptable''.
+Intuitively, a function is acceptable if
+\begin{enumerate}
+    \item
+          its domain is the union of a computable sequence of rational intervals called an \emph{effective open exhaustion}, and
+    \item it statisfies a specific type of continuity called \emph{effective local uniform continuity}.
+\end{enumerate}
+Fu and Zucker's theorem means that, within the realm of acceptable functions, we can work with \WhileCC-approximability without giving up expressiveness and transfer results amongst the four models.
+
+A natural question remained open: is the class of acceptable functions sufficiently large to include many common functions, such as the elementary functions?
+In this work, we solve a conjecture posed by \cite{ModelOfCompForPartFunc_MingQuanFuAndJeffZucker} that all elementary functions are acceptable.
+We also prove that the elementary functions are \WhileCC-approximable and therefore computable in all the aforementioned models of computation. Thus
+the main contribution of this work is a proof of the acceptability of elementary functions derived from:
+\begin{enumerate}
+    \item a proof sketch for \WhileCC-approximability of all elementary functions,
+    \item an explicit construction of effective open exhaustions for the domains of elementary functions, and
+    \item using an alternative characterization of acceptable functions.
+\end{enumerate}
+
+\bibliographystyle{abbrvnat}
+\bibliography{refs}
+\end{document}

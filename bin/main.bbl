@@ -1,0 +1,50 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Fu and Zucker(2014)]{ModelOfCompForPartFunc_MingQuanFuAndJeffZucker}
+M.~Q. Fu and J.~Zucker.
+\newblock Models of computation for partial functions on the reals.
+\newblock \emph{Journal of Logical and Algebraic Methods in Programming}, 84\penalty0 (2):\penalty0 218--237, 11 2014.
+\newblock ISSN 2352-2208.
+\newblock \doi{10.1016/j.jlamp.2014.11.001}.
+
+\bibitem[Stoltenberg-Hansen and Tucker(1999)]{ConcreteModelsTopologicalAlgebra_Tucker1999}
+V.~Stoltenberg-Hansen and J.~V. Tucker.
+\newblock Concrete models of computation for topological algebras.
+\newblock \emph{Theoretical Computer Science}, 219\penalty0 (1-2):\penalty0 347--378, 1999.
+\newblock ISSN 0304-3975.
+\newblock \doi{10.1016/S0304-3975(98)00296-5}.
+
+\bibitem[Tenenbaum and Pollard(1985)]{OrdinaryDifferentialEquations_Morris_Tenenbaum_1985}
+M.~Tenenbaum and H.~Pollard.
+\newblock \emph{Ordinary Differential Equations: An Elementary Textbook for Students of Mathematics, Engineering, and the Sciences}.
+\newblock Dover Books on Mathematics. Dover Publications, 1985.
+\newblock ISBN 9780486649405.
+\newblock URL \url{https://books.google.ca/books?id=iU4zDAAAQBAJ}.
+\newblock page 17.
+
+\bibitem[Tucker and Zucker(2005)]{ComputableTotalFunctionsOnMetricAlgebras_JohnTuckerAndJeffZucker}
+J.~Tucker and J.~Zucker.
+\newblock Computable total functions on metric algebras, universal algebraic specifications and dynamical systems.
+\newblock \emph{The Journal of Logic and Algebraic Programming}, 62\penalty0 (1):\penalty0 71--108, 2005.
+\newblock ISSN 1567-8326.
+\newblock \doi{10.1016/j.jlap.2003.10.001}.
+
+\bibitem[Tucker and Zucker(1999)]{ComputationByWhileProgramsOnTopologicalPartialAlgebras_TuckerAndZucker}
+J.~V. Tucker and J.~I. Zucker.
+\newblock Computation by ‘{While}’ programs on topological partial algebras.
+\newblock \emph{Theoretical Computer Science}, 219\penalty0 (1):\penalty0 379--420, 1999.
+\newblock ISSN 0304-3975.
+\newblock \doi{10.1016/S0304-3975(98)00297-7}.
+
+\bibitem[Tucker and Zucker(2004)]{AbstractVSConcreteComputationOnMetricPartialAlgebras_TuckerZucker_2004}
+J.~V. Tucker and J.~I. Zucker.
+\newblock Abstract versus concrete computation on metric partial algebras.
+\newblock \emph{{ACM} Trans. Comput. Log.}, 5\penalty0 (4):\penalty0 611--668, 2004.
+\newblock \doi{10.1145/1024922.1024924}.
+
+\end{thebibliography}
