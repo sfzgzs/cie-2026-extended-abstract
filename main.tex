@@ -5,8 +5,9 @@
 \usepackage{doi}
 \usepackage{amssymb}
 \usepackage{authblk}
-\usepackage{enumitem}
+\usepackage[inline]{enumitem}
 \usepackage{cleveref}
+
 
 \newcommand\WhileCC{\textit{\textbf{WhileCC}}}
 \newcommand\Reals{\mathbb{R}}
@@ -35,7 +36,7 @@ exponential, trigonometric functions, and their inverses.
 
 
 Existing work \cite{ModelOfCompForPartFunc_MingQuanFuAndJeffZucker,ComputationByWhileProgramsOnTopologicalPartialAlgebras_TuckerAndZucker,AbstractVSConcreteComputationOnMetricPartialAlgebras_TuckerZucker_2004} studies four models of computation for partial functions on $\Reals$, namely
-\begin{enumerate}
+\begin{enumerate}[itemsep=1pt, parsep=2pt, topsep=0pt, partopsep=0pt]
     \item GL-computability,
     \item tracking computability,
     \item multipolynomial
@@ -49,11 +50,11 @@ For a programmer, this would be akin to writing programs against an abstract int
 
 Previous work by Fu and Zucker \cite{ModelOfCompForPartFunc_MingQuanFuAndJeffZucker} proves that these four models are equivalent when restricted to a class of functions we call ``acceptable''.
 Intuitively, a function is acceptable if
-\begin{enumerate}
+\begin{enumerate*}[label=(\arabic*)]
     \item
           its domain is the union of a computable sequence of rational intervals called an \emph{effective open exhaustion}, and
     \item it statisfies a specific type of continuity called \emph{effective local uniform continuity}.
-\end{enumerate}
+\end{enumerate*}
 Fu and Zucker's theorem means that, within the realm of acceptable functions, we can work with \WhileCC-approximability without giving up expressiveness and transfer results amongst the four models.
 
 A natural question remained open: is the class of acceptable functions sufficiently large to include many common functions, such as the elementary functions?
